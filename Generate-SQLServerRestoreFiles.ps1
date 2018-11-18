@@ -10,7 +10,7 @@
         Requires dbatools.
     .EXAMPLE
         Export-SqlRestoreFile -Server Server1\Inst1 -OutputDirectory "D:\DbBackups\"
-        Export-SqlRestoreFile -Server Server1\Inst1,Server2/Inst1 -OutputDirectory "D:\DbBackups\"
+        Export-SqlRestoreFile -Server Server1\Inst1,Server2\Inst1 -OutputDirectory "D:\DbBackups\"
     #>
     
     Param(
